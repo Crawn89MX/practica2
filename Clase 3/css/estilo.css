@@ -1,0 +1,65 @@
+﻿
+	.class1{
+		/*aqui debes de alinear al centro y poner letras cursivas*/
+		text-align: center;
+		font-style: cursive;
+	}
+	.class2{
+		/*aqui debes de alinear a la derecha y cambiar la tipografia*/
+		text-align:right;
+		font-family: Arial;
+	}
+
+	#identificador{
+		/*aplica subrayado*/
+		text-decoration: underline;
+	}
+
+
+	h1{
+		/*color, tamaño de letra*/
+		color:gray;
+		font-size: 70px;
+	}
+
+	p{
+		/*border, modificar margen y padding*/
+		border: 1px solid red;
+		margin: 10px;
+		padding: 5px;
+	}
+
+	a:link,a:visited{
+		/*eliminar subrayado, modificar color o tamaño cuando ratón pase sobre el.*/
+		text-decoration: none;
+	}
+
+	a:hover{
+		color: gray;
+	}
+
+	ul,li{
+		/*modificar bullet*/
+		list-style-type: square;
+
+	}
+
+	table{
+		/*color de fondo*/
+		background: purple;
+	}
+
+	th{
+		/*color distinto*/
+		color: red;
+	}
+
+	img{
+		/*aplicar float hacia la derecha*/
+		float: right;
+	}
+
+	body{
+		/*color de fondo*/
+		background: gray;
+	}
